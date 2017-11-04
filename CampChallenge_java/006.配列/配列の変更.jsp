@@ -16,14 +16,7 @@
 <%
    //課題「配列の作成」で作成した配列の"soeda"を"33"に変更してください。
 ArrayList<String> data = new ArrayList<String>();
-      data.set(0,"10");
-      data.set(1,"100");
-      data.set(2,"soeda");
-      data.set(3,"hayashi");
-      data.set(4,"-20");
-      data.set(5,"118");
-      data.set(6,"END");
-      
+ 
         %>
         <%
             data.set(2, "33");

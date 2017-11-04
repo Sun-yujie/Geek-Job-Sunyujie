@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charadd=UTF-8">
         <title>JSP Page</title>
     </head>
     <body>
@@ -20,15 +20,20 @@
 //"10", "100", "soeda", "hayashi", "-20", "118", "END"
 
 ArrayList<String> data = new ArrayList<String>();
-      data.set(0,"10");
-      data.set(1,"100");
-      data.set(2,"soeda");
-      data.set(3,"hayashi");
-      data.set(4,"-20");
-      data.set(5,"118");
-      data.set(6,"END");
+      data.add(0,"10");
+      data.add(1,"100");
+      data.add(2,"soeda");
+      data.add(3,"hayashi");
+      data.add(4,"-20");
+      data.add(5,"118");
+      data.add(6,"END");
       
         %>
+        <%
+        data.set(2,"33");
+        
+        %>
+        
    
     </body>
 </html>
